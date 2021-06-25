@@ -6,6 +6,7 @@ package com.pluralsight.bridge;
 //Prioritizes composition over inheritance
 //Examples: driver (JDBC)
 //Abstraction, Implementor, Refined Abstraction, Concrete Implementor
+//Concerns: increases complexity, difficult to plan, More than just OOP
 
 import java.sql.Connection;
 import java.sql.DriverManager;
