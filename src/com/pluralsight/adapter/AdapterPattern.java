@@ -1,7 +1,8 @@
 package com.pluralsight.adapter;
-// Good for connecting new code to legacy code
+// Good for connecting new code to legacy code (retrofit)
 // Converts interface into another interface (translates requests)
 // Client centric
+// Shouldn't add functionality (should use decorator then)
 // Examples: Arrays -> Lists
 
 import java.util.List;
