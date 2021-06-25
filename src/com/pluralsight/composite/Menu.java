@@ -7,12 +7,12 @@ public class Menu extends MenuComponent{
         this.name = name;
         this.url = url;
     }
-//    @Override
+    @Override
     public MenuComponent add(MenuComponent menuComponent) {
         menuComponents.add(menuComponent);
         return menuComponent;
     }
-//    @Override
+    @Override
     public MenuComponent remove(MenuComponent menuComponent) {
         menuComponents.remove(menuComponent);
         return menuComponent;

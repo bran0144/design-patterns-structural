@@ -9,6 +9,13 @@ public abstract class MenuComponent {
     String url;
     List<MenuComponent> menuComponents = new ArrayList<>();
 
+    public MenuComponent add(MenuComponent menuComponent) {
+        throw new UnsupportedOperationException("Feature not implemented");
+    }
+    public MenuComponent remove(MenuComponent menuComponent) {
+        throw new UnsupportedOperationException("Feature not implemented");
+    }
+
     public String getName() {return name;}
     public String getUrl() {return url;}
 

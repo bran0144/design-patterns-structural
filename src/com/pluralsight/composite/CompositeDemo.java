@@ -8,6 +8,10 @@ package com.pluralsight.composite;
 //composite has children (and methods to manipulate those children)
 //Typically delegates method implementation to its children
 //Good for menus and hierarchies
+//Can make things overly simplified
+//Difficult to restrict (not compile time saftely)
+//Unity between objects
+//Generalizes a hierarchical structure
 
 import java.util.HashMap;
 import java.util.Map;
