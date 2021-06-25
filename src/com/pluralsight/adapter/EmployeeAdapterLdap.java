@@ -7,7 +7,7 @@ public class EmployeeAdapterLdap implements Employee {
         this.instance = instance;
     }
     @Override
-    public String getID() {
+    public String getId() {
         return instance.getCn();
     }
 
@@ -22,5 +22,10 @@ public class EmployeeAdapterLdap implements Employee {
     @Override
     public String getEmail() {
         return instance.getMail();
+    }
+    //Some argue that this is more like a decorator, not an adaptor
+    public String toString() {
+        return "ID: " + instance.getCn() + ", First name: " + instance.getGivenName()
+                + ", Last mame: " + instance.getSurname() + ", Email: " + instance.getMail();
     }
 }
